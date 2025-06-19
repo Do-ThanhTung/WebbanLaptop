@@ -456,7 +456,8 @@ Dự án **Website Bán Máy Tính** được xây dựng bằng **Laravel** man
 | **Quản lý nội dung (CMS)** | Có thể tích hợp module CMS như trang blog, tin tức, hoặc quản lý nội dung trang tĩnh               |
 | **Hệ sinh thái mạnh mẽ**   | Laravel hỗ trợ đầy đủ: Artisan CLI, Queue, Events, Jobs, Notifications, Broadcasting...            |
 
-```
+
+
 ## 🔗 Liên Kết
 
 - **GitHub:** [https://github.com/Do-ThanhTung](https://github.com/Do-ThanhTung)
