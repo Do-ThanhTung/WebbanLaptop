@@ -463,9 +463,9 @@ Dự án **Website Bán Máy Tính** được xây dựng bằng **Laravel** man
 
 ## 🔗 Liên Kết
 
-- **GitHub:** [https://github.com/Do-ThanhTung](https://github.com/Do-ThanhTung)
+- **GitHub:** [Do-ThanhTung](https://github.com/Do-ThanhTung)
 - **GitHub Repo:** [WebbanLaptop](https://github.com/Do-ThanhTung/WebbanLaptop)
 - **YouTube Demo:** [Xem video demo](https://www.youtube.com/watch?v=p5VMIVFY6JU)
-- **Drive Demo:**  [https://drive.google.com/file/d/1si4hmIbON4nzUCSyvSCbsNtcmKYJ35_r/view?usp=sharing](https://drive.google.com/file/d/1si4hmIbON4nzUCSyvSCbsNtcmKYJ35_r/view?usp=sharing)
+- **Drive Demo:**  [Xem video demo](https://drive.google.com/file/d/1si4hmIbON4nzUCSyvSCbsNtcmKYJ35_r/view?usp=sharing)
 - **Public Website:** Đang Cập Nhật
 
