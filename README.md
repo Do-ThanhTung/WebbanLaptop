@@ -397,26 +397,29 @@ Authorization: Bearer {token}
 
 ## ⚙️ Cài Đặt Và Triển Khai
 
-```bash
-# Bước 1: Copy file env
+bash  
+# Bước 1: Tải file [webmaytinh.sql](https://github.com/Do-ThanhTung/WebbanLaptop/blob/master/webmaytinh.sql)
+lên [http://localhost/phpmyadmin/](http://localhost/phpmyadmin/)
+
+# Bước 2: Copy file env
 cp .env.example .env
 
-# Bước 2: Cài đặt thư viện
+# Bước 3: Cài đặt thư viện
 composer install
 npm install
 
-# Bước 3: Tạo CSDL và seed
+# Bước 4: Tạo CSDL và seed
 php artisan migrate --seed
 
-# Bước 4: Build giao diện
+# Bước 5: Build giao diện
 npm run build
 
-# Bước 5: Khởi động queue
+# Bước 6: Khởi động queue
 php artisan queue:work
 
-# Bước 6: Khởi chạy Laravel
+# Bước 7: Khởi chạy Laravel
 php artisan serve
-```
+
 
 ---
 
@@ -463,5 +466,6 @@ Dự án **Website Bán Máy Tính** được xây dựng bằng **Laravel** man
 - **GitHub:** [https://github.com/Do-ThanhTung](https://github.com/Do-ThanhTung)
 - **GitHub Repo:** [WebbanLaptop](https://github.com/Do-ThanhTung/WebbanLaptop)
 - **YouTube Demo:** [Xem video demo](https://www.youtube.com/watch?v=p5VMIVFY6JU)
+- **Drive Demo:**  [https://drive.google.com/file/d/1si4hmIbON4nzUCSyvSCbsNtcmKYJ35_r/view?usp=sharing](https://drive.google.com/file/d/1si4hmIbON4nzUCSyvSCbsNtcmKYJ35_r/view?usp=sharing)
 - **Public Website:** Đang Cập Nhật
 
