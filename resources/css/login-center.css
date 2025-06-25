@@ -1,0 +1,36 @@
+/* Căn giữa trang đăng nhập */
+.login-center-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f7fa;
+}
+
+/* Style đẹp cho input form đăng ký/đăng nhập */
+.form-control {
+    border: 1.5px solid #d0d7de !important;
+    border-radius: 8px !important;
+    font-size: 16px !important;
+    padding: 10px 16px !important;
+    background: #f8fafc !important;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-shadow: none !important;
+}
+.form-control:focus {
+    border: 1.5px solid #2196f3 !important;
+    background: #fff !important;
+    outline: none !important;
+    box-shadow: 0 0 0 2px #e3f2fd !important;
+}
+.btn-primary {
+    background: #2196f3 !important;
+    border: none !important;
+    font-weight: 600;
+    border-radius: 8px !important;
+    transition: background 0.2s;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background: #1769aa !important;
+}

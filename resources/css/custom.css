@@ -1,0 +1,10 @@
+/* Căn giữa chữ trong danh mục sản phẩm */
+.menu-item {
+    text-align: center;
+}
+
+/* Nếu muốn căn giữa cả khối danh mục */
+#menu {
+    margin-left: auto;
+    margin-right: auto;
+}
