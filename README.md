@@ -107,7 +107,7 @@ package.json
 
 ## 🗺️ Sơ Đồ Chức Năng Hệ Thống
 
-![Sơ đồ chức năng](public/storage/avatar/Sơ%20đồ%20chức%20năng.jpg)
+![Sơ đồ chức năng](public/img/so-do-chuc-nang.jpg)
 
 ---
 
