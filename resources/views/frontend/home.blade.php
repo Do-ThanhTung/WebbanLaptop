@@ -72,12 +72,12 @@
 			<div style="gap: 15px;" class="product-list row">
 				@foreach($product_featured as $prod_featured)
 				<div style="border-radius: 10px;" class="product-item col-md-3 col-sm-6 col-xs-12">
-					<a href="#"><img height="150px" src="{{ asset('storage/avatar/'.$prod_featured->prod_img) }}" class="img-thumbnail"></a>
+					<a href="#"><img height="150px" src="{{ asset('img/'.$prod_featured->prod_img) }}" class="img-thumbnail"></a>
 					<p><a href="#">{{ $prod_featured->prod_name }}</a></p>
 					<p class="price">{{ number_format($prod_featured->prod_price,0,',','.' )}} VND</p>
 					<div class="marsk" onclick="window.location='{{ asset('/detail/' . $prod_featured->prod_id) }}'" style="cursor:pointer;">
-		<a href="{{ asset('/detail/' . $prod_featured->prod_id) }}" class="circle-more" tabindex="-1">Xem thêm</a>
-	</div>
+        <a href="{{ asset('/detail/' . $prod_featured->prod_id) }}" class="circle-more" tabindex="-1">Xem thêm</a>
+    </div>
 				</div>
 				@endforeach
 			</div>
@@ -92,12 +92,12 @@
 			<div style="gap: 15px;" class="product-list row">
 				@foreach($product_new as $prod_new)
 				<div style="border-radius: 10px;" class="product-item col-md-3 col-sm-6 col-xs-12">
-					<a href="#"><img src="{{ asset('storage/avatar/'.$prod_new->prod_img) }}" class="img-thumbnail"></a>
+					<a href="#"><img src="{{ asset('img/'.$prod_new->prod_img) }}" class="img-thumbnail"></a>
 					<p><a href="#">{{ $prod_new->prod_name }}</a></p>
 					<p class="price">{{ number_format($prod_new->prod_price,0,',','.' ) }} VND</p>
 					<div class="marsk" onclick="window.location='{{ asset('/detail/' . $prod_new->prod_id) }}'" style="cursor:pointer;">
-		<a href="{{ asset('/detail/' . $prod_new->prod_id) }}" class="circle-more" tabindex="-1">Xem thêm</a>
-	</div>
+        <a href="{{ asset('/detail/' . $prod_new->prod_id) }}" class="circle-more" tabindex="-1">Xem thêm</a>
+    </div>
 				</div>
 				@endforeach
 			</div>
@@ -108,12 +108,12 @@
     <div style="gap: 15px;" class="product-list row">
         @foreach($allProducts as $product)
         <div style="border-radius: 10px;" class="product-item col-md-4 col-sm-6 col-xs-12">
-            <a href="#"><img height="150px" src="{{ asset('storage/avatar/'.$product->prod_img) }}" class="img-thumbnail"></a>
+            <a href="#"><img height="150px" src="{{ asset('img/'.$product->prod_img) }}" class="img-thumbnail"></a>
             <p><a href="#">{{ $product->prod_name }}</a></p>
             <p class="price">{{ number_format($product->prod_price,0,',','.' )}} VND</p>
             <div class="marsk" onclick="window.location='{{ asset('/detail/' . $product->prod_id) }}'" style="cursor:pointer;">
-		<a href="{{ asset('/detail/' . $product->prod_id) }}" class="circle-more" tabindex="-1">Xem thêm</a>
-	</div>
+        <a href="{{ asset('/detail/' . $product->prod_id) }}" class="circle-more" tabindex="-1">Xem thêm</a>
+    </div>
         </div>
         @endforeach
     </div>

@@ -12,7 +12,7 @@
 				@endif
 				@foreach($prod_search as $item)
 				<div style="border-radius: 10px;" class="product-item col-md-3 col-sm-6 col-xs-12">
-					<a href="#"><img height="150px" src="http://127.0.0.1:8000/storage/avatar/{{ $item->prod_img }}" class="img-thumbnail"></a>
+					<a href="#"><img height="150px" src="{{ asset('img/'.$item->prod_img) }}" class="img-thumbnail"></a>
 					<p><a href="#">{{ $item->prod_name }}</a></p>
 					<p class="price">{{ number_format($item->prod_price,0,',','.' )}} VND</p>
 					<div class="marsk" onclick="window.location='{{ asset('/detail/' . $item->prod_id) }}'" style="cursor:pointer;">

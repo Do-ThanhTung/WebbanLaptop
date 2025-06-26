@@ -8,7 +8,9 @@
 			<div style="gap: 15px;" class="product-list row">
 				@foreach($product_cate as $prod_cate)
 				<div style="border-radius: 15px;" class="product-item col-md-3 col-sm-6 col-xs-12">
-					<a href="#"><img height="150px" src="http://127.0.0.1:8000/storage/avatar/{{ $prod_cate->prod_img }}" class="img-thumbnail"></a>
+					<a href="#">
+                        <img height="150px" src="{{ asset('img/'.$prod_cate->prod_img) }}" class="img-thumbnail">
+                    </a>
 					<p><a href="#">{{ $prod_cate->prod_name }}</a></p>
 					<p class="price">{{ number_format($prod_cate->prod_price,0,',','.' )}} VND</p>
 					<div class="marsk" onclick="window.location='{{ asset('/detail/' . $prod_cate->prod_id) }}'" style="cursor:pointer;">
