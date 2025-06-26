@@ -559,3 +559,7 @@ Dự án **Website Bán Máy Tính** được xây dựng bằng **Laravel** man
 -   **YouTube Demo:** [Xem video demo](https://www.youtube.com/watch?v=p5VMIVFY6JU)
 -   **Drive Demo:** [Xem video demo](https://drive.google.com/file/d/1si4hmIbON4nzUCSyvSCbsNtcmKYJ35_r/view?usp=sharing)
 -   **Public Website:** [Xem public](https://webbanlaptop-master-czgpyv.laravel.cloud/)
+
+#### Tk Admin: Admin@gmail.com
+
+#### Mk: 12345678
