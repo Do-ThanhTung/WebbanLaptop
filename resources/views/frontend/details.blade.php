@@ -22,7 +22,7 @@
 			<h3>{{ $product->prod_name }}</h3>
 			<div class="row">
 				<div id="product-img" class="col-xs-12 col-sm-12 col-md-3 text-center">
-					<img width="210px" src="http://127.0.0.1:8000/storage/avatar/{{ $product->prod_img }}">
+					<img width="210px" src="{{ asset('img/'.$product->prod_img) }}">
                 </div>
 				<div id="product-details" class="col-xs-12 col-sm-12 col-md-9">
 					<p>Giá: <span class="price">{{ number_format($product->prod_price,0,',','.' )}} VND</span></p>

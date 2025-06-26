@@ -10,8 +10,9 @@ class CategorySeeder extends Seeder
 {
     public function run(): void
     {
-        // Xóa dữ liệu cũ bằng delete thay vì truncate để tránh lỗi ràng buộc khóa ngoại
-        \DB::table('vp_categories')->delete();
+        // Xóa dữ liệu cũ (không dùng truncate để tránh lỗi khóa ngoại)
+        DB::table('vp_categories')->delete();
+
         DB::table('vp_categories')->insert([
             [
                 'cate_id' => 69,

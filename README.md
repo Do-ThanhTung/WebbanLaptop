@@ -337,47 +337,47 @@ class OrderController extends Controller
 
 ## Đăng ký
 
-![Đăng ký](public/storage/avatar/Đăng%20ký.jpg)
+![Đăng ký](public/img/Đăng%20ký.jpg)
 
 ## Đăng Nhập
 
-![Đăng Nhập](public/storage/avatar/Đăng%20Nhập.jpg)
+![Đăng Nhập](public/img/Đăng%20Nhập.jpg)
 
 ## Đổi mật khẩu
 
-![Đổi mật khẩu](public/storage/avatar/Đổi%20mật%20khẩu.jpg)
+![Đổi mật khẩu](public/img/Đổi%20mật%20khẩu.jpg)
 
 ## Trang chủ
 
-![Trang chủ](public/storage/avatar/Trang%20chủ.jpg)
+![Trang chủ](public/img/Trang%20chủ.jpg)
 
 ## Các Sản Phẩm
 
-![Các Sản Phẩm](public/storage/avatar/Các%20Sản%20Phẩm.jpg)
+![Các Sản Phẩm](public/img/Các%20Sản%20Phẩm.jpg)
 
 ## Trang admin
 
-![Trang admin](public/storage/avatar/Trang%20admin.jpg)
+![Trang admin](public/img/Trang%20admin.jpg)
 
 ## Quản lý người dùng
 
-![Quản lý người dùng](public/storage/avatar/quản%20lý%20người%20dùng.jpg)
+![Quản lý người dùng](public/img/quản%20lý%20người%20dùng.jpg)
 
 ## Quản lý sản phẩm
 
-![Quản lý sản phẩm](public/storage/avatar/quản%20lý%20sản%20phẩm.jpg)
+![Quản lý sản phẩm](public/img/quản%20lý%20sản%20phẩm.jpg)
 
 ## Quản lý danh mục
 
-![Quản lý danh mục](public/storage/avatar/quản%20lý%20danh%20mục.jpg)
+![Quản lý danh mục](public/img/quản%20lý%20danh%20mục.jpg)
 
 ## Quản lý đơn hàng
 
-![Quản lý đơn hàng](public/storage/avatar/quản%20lý%20đơn%20hàng.jpg)
+![Quản lý đơn hàng](public/img/quản%20lý%20đơn%20hàng.jpg)
 
 ## Quản lý bình luận
 
-![Quản lý bình luận](public/storage/avatar/quản%20lý%20bình%20luận.jpg)
+![Quản lý bình luận](public/img/quản%20lý%20bình%20luận.jpg)
 
 ---
 
@@ -558,4 +558,4 @@ Dự án **Website Bán Máy Tính** được xây dựng bằng **Laravel** man
 -   **GitHub Repo:** [WebbanLaptop](https://github.com/Do-ThanhTung/WebbanLaptop)
 -   **YouTube Demo:** [Xem video demo](https://www.youtube.com/watch?v=p5VMIVFY6JU)
 -   **Drive Demo:** [Xem video demo](https://drive.google.com/file/d/1si4hmIbON4nzUCSyvSCbsNtcmKYJ35_r/view?usp=sharing)
--   **Public Website:** Đang Cập Nhật
+-   **Public Website:** [Xem public](https://webbanlaptop-master-czgpyv.laravel.cloud/)

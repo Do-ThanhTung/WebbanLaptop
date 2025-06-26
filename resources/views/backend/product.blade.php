@@ -35,7 +35,7 @@
 											<td>{{ $product->prod_name }}</td>
 											<td>{{ number_format($product->prod_price,0,',','.')}} VND</td>
 											<td class="img-product">
-												<img height="150px" src="{{ asset('storage/avatar/'.$product->prod_img) }}">
+												<img height="150px" src="{{ asset('img/'.$product->prod_img) }}">
 											</td>
 											<td>{{ $product->cate_name }}</td>
 											<td>

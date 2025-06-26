@@ -29,7 +29,7 @@
 					</tr>
 					@foreach($products as $product)
 						<tr>
-							<td><img width="200px" class="img-responsive" src="http://127.0.0.1:8000/storage/avatar/{{ $product->options->img }}"></td>
+							<td><img width="200px" class="img-responsive" src="{{ asset('img/'.$product->options->img) }}"></td>
 							<td>{{ $product->name }}</td>
 							<td>
 								<div class="form-group">
@@ -88,7 +88,7 @@
 		</div>
 
 		@else
-			<img class="d-flex" style="margin: auto;" width="500" src="img/home/emptycart.jfif">
+			<img class="d-flex" style="margin: auto;" width="500" src="{{ asset('img/home/emptycart.jfif') }}">
 		@endif
 	</div>
 @stop

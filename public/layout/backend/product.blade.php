@@ -71,7 +71,7 @@
 											<td>iPhone 7 Plus 32GB quốc tế Mate Black</td>
 											<td>21.990.000 VND</td>
 											<td>
-												<img width="200px" src="img/iphone7-plus-black-select-2016.jpg" class="thumbnail">
+												<img width="200px" src="img/{{ $product->prod_img }}" class="thumbnail">
 											</td>
 											<td>iPhone</td>
 											<td>
@@ -84,7 +84,7 @@
 											<td>iPhone 7 Plus 32GB quốc tế Mate Black</td>
 											<td>21.990.000 VND</td>
 											<td>
-												<img width="200px" src="img/iphone7-plus-black-select-2016.jpg" class="thumbnail">
+												<img width="200px" src="img/{{ $product->prod_img }}" class="thumbnail">
 											</td>
 											<td>iPhone</td>
 											<td>
@@ -97,7 +97,7 @@
 											<td>iPhone 7 Plus 32GB quốc tế Mate Black</td>
 											<td>21.990.000 VND</td>
 											<td>
-												<img width="200px" src="img/iphone7-plus-black-select-2016.jpg" class="thumbnail">
+												<img width="200px" src="img/{{ $product->prod_img }}" class="thumbnail">
 											</td>
 											<td>iPhone</td>
 											<td>
@@ -110,7 +110,7 @@
 											<td>iPhone 7 Plus 32GB quốc tế Mate Black</td>
 											<td>21.990.000 VND</td>
 											<td>
-												<img width="200px" src="img/iphone7-plus-black-select-2016.jpg" class="thumbnail">
+												<img width="200px" src="img/{{ $product->prod_img }}" class="thumbnail">
 											</td>
 											<td>iPhone</td>
 											<td>
@@ -123,7 +123,7 @@
 											<td>iPhone 7 Plus 32GB quốc tế Mate Black</td>
 											<td>21.990.000 VND</td>
 											<td>
-												<img width="200px" src="img/iphone7-plus-black-select-2016.jpg" class="thumbnail">
+												<img width="200px" src="img/{{ $product->prod_img }}" class="thumbnail">
 											</td>
 											<td>iPhone</td>
 											<td>
@@ -136,7 +136,7 @@
 											<td>iPhone 7 Plus 32GB quốc tế Mate Black</td>
 											<td>21.990.000 VND</td>
 											<td>
-												<img width="200px" src="img/iphone7-plus-black-select-2016.jpg" class="thumbnail">
+												<img width="200px" src="img/{{ $product->prod_img }}" class="thumbnail">
 											</td>
 											<td>iPhone</td>
 											<td>

@@ -16,11 +16,11 @@ class VpOrderFactory extends Factory
             'email' => $this->faker->safeEmail(),
             'phone' => $this->faker->phoneNumber(),
             'address' => $this->faker->address(),
-            'total_price' => $this->faker->numberBetween(1000000, 50000000),
-            'total_products' => $this->faker->numberBetween(1, 10),
-            'placed_order_date' => $this->faker->date('Y-m-d'),
+            'total_price' => (string) $this->faker->numberBetween(1000000, 50000000),
+            'total_products' => (string) $this->faker->numberBetween(1, 10),
+            'placed_order_date' => now()->format('d/m/Y'), // như trong migration
             'order_status' => $this->faker->randomElement(['Chờ xác nhận', 'Đã xác nhận', 'Đã giao', 'Đã hủy']),
-            'user_id' => 1, // hoặc random user id có sẵn
+            'user_id' => 1,
             'created_at' => now(),
             'updated_at' => now(),
         ];
