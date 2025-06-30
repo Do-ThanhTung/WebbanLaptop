@@ -39,7 +39,7 @@ class ProductController extends Controller
         $product->prod_description = $request->description;
         $product->prod_cate = $request->cate;
         $product->prod_featured = $request->featured;
-        $request->img->storeAs('avatar',$filename);
+        $request->img->move(public_path('img'), $filename);
         $product->save();
 
         return redirect()->intended('admin/product')->with('success', 'Thêm sản phẩm thành công!');;
