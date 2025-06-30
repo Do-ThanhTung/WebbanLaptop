@@ -75,7 +75,9 @@
     @endif
     <div class="login-center-wrapper" style="width:100vw;min-height:100vh;display:flex;align-items:center;justify-content:center;">
         <div class="login-panel panel panel-default" style="min-width:520px;max-width:600px;width:100%;box-shadow:0 8px 32px rgba(255,87,34,0.10);border-radius:20px;overflow:hidden;">
-            <div class="panel-heading" style="font-size:2.2rem;font-weight:700;text-align:center;background:linear-gradient(90deg,#ff5722 0%,#ff9800 100%);color:#fff;border-bottom:none;padding:32px 0 18px 0;letter-spacing:1px;font-family:'Segoe UI',Arial,sans-serif;">Đăng nhập</div>
+            <div class="panel-heading" style="font-size:2.2rem;font-weight:700;display:flex;align-items:center;justify-content:center;background:linear-gradient(90deg,#ff5722 0%,#ff9800 100%);color:#fff;border-bottom:none;padding:32px 0 18px 0;letter-spacing:1px;font-family:'Segoe UI',Arial,sans-serif;">
+                <span style="width:100%;text-align:center;">Đăng nhập</span>
+            </div>
             <div class="panel-body" style="background:#fff;padding:44px 48px 32px 48px;display:flex;justify-content:center;">
                 <form role="form" method="POST" action="{{ route('login') }}" class="register-form-wrapper">
                     @csrf
