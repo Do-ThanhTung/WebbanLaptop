@@ -67,7 +67,7 @@ class ProductController extends Controller
         if($request->hasFile('img')) {
             $img = $request->img->getClientOriginalName();
             $product->prod_img = $img;
-        $request->img->storeAs('avatar',$img);
+            $request->img->move(public_path('img'), $img);
         }
         $product->save();
         return redirect()->intended('admin/product')->with('success', 'Chỉnh sửa sản phẩm thành công!');;
