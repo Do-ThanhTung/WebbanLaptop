@@ -60,6 +60,60 @@ Xây dựng hệ thống **bán máy tính online** với các tính năng chín
 
 ---
 
+## Yêu Cầu
+
+**1. Sử dụng framework Laravel xây dựng ứng dụng**
+
+-   Dự án sử dụng Laravel 10, xây dựng website thương mại điện tử bán laptop.
+
+**2. Ứng dụng minh họa các đối tượng trong hệ thống**
+
+-   Dự án đã xây dựng và quản lý nhiều đối tượng, bao gồm:
+    -   **User (Người dùng):** Quản lý thông tin, xác thực, phân quyền (admin, customer).
+    -   **VpProduct (Sản phẩm):** Quản lý thông tin sản phẩm laptop.
+    -   **VpOrder (Đơn hàng):** Quản lý giao dịch mua bán giữa khách hàng và sản phẩm.
+    -   **VpCategory (Danh mục):** Quản lý các loại sản phẩm, phân loại laptop.
+    -   **VpCart (Giỏ hàng):** Quản lý các sản phẩm mà khách hàng thêm vào giỏ.
+    -   **VpComment (Bình luận):** Quản lý bình luận, đánh giá của người dùng về sản phẩm.
+    -   **VpFavouriteProduct (Sản phẩm yêu thích):** Quản lý danh sách sản phẩm yêu thích của từng user.
+
+**3. Chức năng định danh và xác thực (User)**
+
+-   Sử dụng Laravel Breeze để đăng ký, đăng nhập, xác thực người dùng.
+-   Phân quyền người dùng: admin và customer.
+-   Middleware kiểm tra xác thực khi truy cập các route quan trọng.
+-   Chỉ người dùng đã đăng nhập mới có thể đặt hàng, quản lý đơn hàng, giỏ hàng.
+
+**4. Xây dựng CRUD cho ít nhất 01 đối tượng ngoài User**
+
+-   Dự án đã xây dựng đầy đủ chức năng CRUD (Create, Read, Update, Delete) cho đối tượng **VpOrder (Đơn hàng)**:
+    -   **Tạo mới đơn hàng:** Khi khách hàng đặt hàng, hệ thống lưu thông tin đơn hàng vào database.
+    -   **Xem danh sách đơn hàng:** Người dùng có thể xem lịch sử các đơn hàng của mình, quản trị viên xem toàn bộ đơn hàng.
+    -   **Chỉnh sửa đơn hàng:** Cho phép cập nhật thông tin đơn hàng (trạng thái, địa chỉ, số lượng, v.v.) theo quyền hạn.
+    -   **Xóa đơn hàng:** Quản trị viên hoặc người dùng (trong một số trường hợp) có thể xóa đơn hàng chưa xử lý.
+-   Ngoài ra, các đối tượng như **VpProduct (sản phẩm)**, **VpCategory (danh mục)** cũng có chức năng CRUD dành cho quản trị viên.
+
+**5. Đảm bảo các yêu cầu Security**
+
+-   **CSRF:** Laravel tự động bảo vệ các form.
+-   **XSS:** Escape dữ liệu với Blade.
+-   **Validation:** Kiểm tra dữ liệu đầu vào với Request Validation.
+-   **Authentication & Authorisation:** Sử dụng middleware auth, phân quyền qua middleware.
+-   **Session & Cookies:** Sử dụng session, cookie mặc định Laravel.
+-   **SQL Injection:** Sử dụng Eloquent ORM, không truy vấn thô.
+
+**6. Áp dụng Eloquent migrate dữ liệu lên Cloud**
+
+-   Sử dụng Eloquent để migrate các bảng lên database cloud (ví dụ: Aiven, PlanetScale).
+-   Cấu hình `.env` để kết nối database cloud.
+
+**7. Public link và hướng dẫn**
+
+-   link public:
+    -   https://webbanlaptop-master-czgpyv.laravel.cloud/
+
+---
+
 ## 🛠️ Kiến Trúc Thư Mục Laravel (rút gọn)
 
 ```bash
@@ -112,6 +166,8 @@ package.json
 ---
 
 # 💻 Một Số Code Minh Họa
+
+---
 
 ## 👤 User Model
 
@@ -263,7 +319,11 @@ class VpCart extends Model
 
 ## 🧠 Controller
 
+---
+
 ### ProductController
+
+---
 
 ```php
 namespace App\Http\Controllers;
@@ -285,7 +345,11 @@ class ProductController extends Controller
 }
 ```
 
+---
+
 ### CartController
+
+---
 
 ```php
 namespace App\Http\Controllers;
@@ -308,7 +372,11 @@ class CartController extends Controller
 }
 ```
 
+---
+
 ### OrderController
+
+---
 
 ```php
 namespace App\Http\Controllers;
@@ -334,6 +402,8 @@ class OrderController extends Controller
 ---
 
 # 🖼️ Một Số Ảnh Minh Họa
+
+---
 
 ## Đăng ký
 
